@@ -59,7 +59,7 @@ def solve(maze1, start, numberOfSteps):
 
     return False
     
-maze1 = readMaze('.vscode\maze-task-first_(2).txt')
+maze1 = readMaze('maze-task-first_(2).txt') #change other mazes file name here to test that
 maze1 = convertMaze(maze1)
 print_maze(maze1)
 start = start_point(maze1)
